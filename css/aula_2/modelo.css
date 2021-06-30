@@ -1,0 +1,48 @@
+body{
+	background: lightblue;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#linha{
+	/*
+	border: 1px solid red;
+	*/
+	display: flex;
+	flex-flow: row wrap;
+	padding: 10px;
+}
+.conteudo{
+	
+	/*
+	border: 1px solid red;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+	width: 200px;
+	*/
+	width: 50%;
+	margin: 5px;
+	padding: 10px;
+	text-align: justify;
+	color: blue;
+	font-weight: bold;
+}
+.conteudo2{
+	/*
+	border: 1px solid red;
+	*/
+	width: 40%;
+	margin: 5px;
+	padding: 10px;
+	text-align: justify;
+	color: green;
+	font-weight: bold;
+}
